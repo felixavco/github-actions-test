@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Simple JS Action
         id: greet
-        uses: https://github.com/actions/hello-world-javascript-action
+        uses: https://github.com/favelar2/hello-world-javascript-action
         with: 
           who-to-greet: Felix
       - name: Log Greeting time
